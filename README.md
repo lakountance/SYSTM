@@ -37,7 +37,7 @@
         function checkPassword(event) {
             event.preventDefault(); // Empêche le rechargement de la page
             const password = document.getElementById('password').value;
-            if (password === "Organisateur123") { // Remplacez par votre mot de passe
+            if (password === "test123") { // Remplacez par votre mot de passe
                 document.getElementById('organizerInfo').style.display = 'block'; // Affiche les infos organisateur
             } else {
                 alert("Mot de passe incorrect"); // Message d'erreur
